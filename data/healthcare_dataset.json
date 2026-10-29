@@ -1,0 +1,925 @@
+{
+  "meta": {
+    "name": "MediBot sample dataset",
+    "version": "0.1.0",
+    "license": "Original plain-language summaries written for this project (MIT, same as the code). Not copied from the referenced sources.",
+    "note": "Sample content. Sources name the reference area to verify against; entries have NOT been clinically reviewed."
+  },
+  "records": [
+    {
+      "id": "mb-001",
+      "question": "When should I seek medical attention?",
+      "symptoms": [
+        "severe symptoms",
+        "symptoms getting worse",
+        "symptoms that do not go away"
+      ],
+      "keywords": [
+        "seek medical attention",
+        "see a doctor",
+        "when to worry",
+        "emergency",
+        "urgent care"
+      ],
+      "category": "General healthcare",
+      "answer": "Call 112 (India) or your local emergency number straight away for chest pain or pressure, trouble breathing, signs of a stroke (face drooping, arm weakness, slurred speech), severe bleeding, sudden confusion, fainting that does not quickly pass, a seizure, or thoughts of harming yourself.\nSee a doctor soon if symptoms are severe, keep getting worse, last longer than expected, keep coming back, or interfere with daily life. Babies, older adults, pregnant people and people with long-term conditions should ask for advice earlier.\nIf you are unsure, contact a healthcare professional.",
+      "source": "NHS – Health A to Z",
+      "sourceUrl": "https://www.nhs.uk/conditions/",
+      "urgency": "see-doctor",
+      "lastReviewed": null,
+      "reviewStatus": "sample-unreviewed"
+    },
+    {
+      "id": "mb-002",
+      "question": "How often should I get a health check-up?",
+      "symptoms": [
+        "routine check-up"
+      ],
+      "keywords": [
+        "health check",
+        "check-up",
+        "screening",
+        "annual checkup",
+        "blood pressure",
+        "cholesterol",
+        "blood sugar"
+      ],
+      "category": "General healthcare",
+      "answer": "How often depends on your age, family history, lifestyle and any existing conditions. Many adults benefit from periodic checks of blood pressure, blood sugar, cholesterol and weight. Ask your doctor which tests and screenings suit you and how often to repeat them.",
+      "source": "NHS – Health A to Z",
+      "sourceUrl": "https://www.nhs.uk/conditions/",
+      "urgency": "routine",
+      "lastReviewed": null,
+      "reviewStatus": "sample-unreviewed"
+    },
+    {
+      "id": "mb-003",
+      "question": "What is a normal body temperature and when is a fever a concern?",
+      "symptoms": [
+        "fever",
+        "high temperature",
+        "chills"
+      ],
+      "keywords": [
+        "fever",
+        "temperature",
+        "normal body temperature",
+        "thermometer"
+      ],
+      "category": "General healthcare",
+      "answer": "Normal body temperature is usually around 36.1–37.2 °C (97–99 °F). A fever is generally 38 °C (100.4 °F) or higher.\nGet medical advice promptly for any fever in a baby under 3 months, a fever lasting more than about 3 days, or a fever with stiff neck, severe headache, confusion, rash that does not fade, or difficulty breathing. Rest and fluids help many adults with mild fevers.",
+      "source": "NHS – High temperature (fever) in adults",
+      "sourceUrl": "https://www.nhs.uk/conditions/fever-in-adults/",
+      "urgency": "see-doctor",
+      "lastReviewed": null,
+      "reviewStatus": "sample-unreviewed"
+    },
+    {
+      "id": "mb-004",
+      "question": "What is the difference between a cold and the flu?",
+      "symptoms": [
+        "runny nose",
+        "sneezing",
+        "fever",
+        "body aches",
+        "cough"
+      ],
+      "keywords": [
+        "cold",
+        "flu",
+        "influenza",
+        "difference",
+        "viral infection"
+      ],
+      "category": "Common symptoms",
+      "answer": "Colds usually come on gradually with a runny or blocked nose, sneezing and a mild sore throat. Flu tends to start suddenly with fever, body aches, headache and marked tiredness, and is often more severe. Both are caused by viruses, so antibiotics do not help.\nRest, fluids and time are the usual care. See a doctor if breathing becomes difficult, symptoms worsen after a few days, or you are at higher risk (older age, pregnancy, long-term illness).",
+      "source": "NHS – Flu",
+      "sourceUrl": "https://www.nhs.uk/conditions/flu/",
+      "urgency": "routine",
+      "lastReviewed": null,
+      "reviewStatus": "sample-unreviewed"
+    },
+    {
+      "id": "mb-005",
+      "question": "What are common causes of headaches?",
+      "symptoms": [
+        "headache",
+        "head pain",
+        "throbbing head",
+        "pressure in head"
+      ],
+      "keywords": [
+        "headache",
+        "head pain",
+        "migraine",
+        "tension headache",
+        "causes"
+      ],
+      "category": "Common symptoms",
+      "answer": "Common causes include tension and stress, dehydration, too little or poor sleep, skipped meals, eye strain, caffeine changes, alcohol, sinus infections and migraine.\nSeek urgent medical care for a sudden, very severe headache, a headache after a head injury, or one with fever and stiff neck, confusion, weakness, vision changes or fainting. See a doctor if headaches are frequent, getting worse, or need pain relief often.",
+      "source": "NHS – Headaches",
+      "sourceUrl": "https://www.nhs.uk/conditions/headaches/",
+      "urgency": "see-doctor",
+      "lastReviewed": null,
+      "reviewStatus": "sample-unreviewed"
+    },
+    {
+      "id": "mb-006",
+      "question": "What can cause dizziness?",
+      "symptoms": [
+        "dizziness",
+        "lightheaded",
+        "spinning",
+        "unsteady"
+      ],
+      "keywords": [
+        "dizzy",
+        "dizziness",
+        "vertigo",
+        "lightheaded",
+        "balance"
+      ],
+      "category": "Common symptoms",
+      "answer": "Dizziness can come from dehydration, standing up too quickly, low blood sugar, inner-ear problems, anxiety, anaemia or side effects of some medicines.\nSeek emergency help if dizziness comes with chest pain, trouble speaking, weakness, vision changes, severe headache or fainting. Otherwise, see a doctor if it keeps happening.",
+      "source": "NHS – Dizziness",
+      "sourceUrl": "https://www.nhs.uk/conditions/dizziness/",
+      "urgency": "see-doctor",
+      "lastReviewed": null,
+      "reviewStatus": "sample-unreviewed"
+    },
+    {
+      "id": "mb-007",
+      "question": "What causes a sore throat?",
+      "symptoms": [
+        "sore throat",
+        "painful swallowing",
+        "scratchy throat"
+      ],
+      "keywords": [
+        "sore throat",
+        "throat pain",
+        "tonsils",
+        "swallowing"
+      ],
+      "category": "Common symptoms",
+      "answer": "Most sore throats are caused by viral infections such as colds. Bacterial infections, allergies, dry air and acid reflux can also be responsible.\nFluids, rest and soothing drinks often help. See a doctor if you have trouble swallowing or breathing, drooling, a high fever, or symptoms lasting more than about a week.",
+      "source": "NHS – Sore throat",
+      "sourceUrl": "https://www.nhs.uk/conditions/sore-throat/",
+      "urgency": "routine",
+      "lastReviewed": null,
+      "reviewStatus": "sample-unreviewed"
+    },
+    {
+      "id": "mb-008",
+      "question": "What are common causes of stomach pain?",
+      "symptoms": [
+        "stomach pain",
+        "abdominal pain",
+        "cramps",
+        "bloating"
+      ],
+      "keywords": [
+        "stomach ache",
+        "abdominal pain",
+        "belly pain",
+        "indigestion",
+        "gas",
+        "constipation"
+      ],
+      "category": "Common symptoms",
+      "answer": "Common causes include indigestion, gas, constipation, stomach infections, food intolerance, acid reflux and urinary tract infections.\nSeek urgent care for severe or worsening pain, pain with vomiting blood, black stools, a hard swollen abdomen, high fever or pregnancy. See a doctor if pain keeps returning or lasts more than a few days.",
+      "source": "NHS – Health A to Z",
+      "sourceUrl": "https://www.nhs.uk/conditions/",
+      "urgency": "see-doctor",
+      "lastReviewed": null,
+      "reviewStatus": "sample-unreviewed"
+    },
+    {
+      "id": "mb-009",
+      "question": "What can cause a persistent cough?",
+      "symptoms": [
+        "cough",
+        "long-lasting cough",
+        "chronic cough"
+      ],
+      "keywords": [
+        "persistent cough",
+        "cough",
+        "cough for weeks",
+        "phlegm",
+        "sputum"
+      ],
+      "category": "Common symptoms",
+      "answer": "A cough that lasts for weeks can follow an infection or be caused by asthma, allergies, acid reflux, smoking or some medicines.\nA cough lasting more than 2 weeks, especially with fever, night sweats, weight loss or blood in the phlegm, should be checked promptly because conditions such as tuberculosis need testing and treatment.",
+      "source": "NHS – Cough; WHO – Tuberculosis fact sheet",
+      "sourceUrl": "https://www.nhs.uk/conditions/cough/",
+      "urgency": "see-doctor",
+      "lastReviewed": null,
+      "reviewStatus": "sample-unreviewed"
+    },
+    {
+      "id": "mb-010",
+      "question": "Why do I feel tired all the time?",
+      "symptoms": [
+        "fatigue",
+        "tiredness",
+        "low energy",
+        "exhaustion"
+      ],
+      "keywords": [
+        "tired",
+        "fatigue",
+        "low energy",
+        "exhausted",
+        "always sleepy"
+      ],
+      "category": "Common symptoms",
+      "answer": "Ongoing tiredness has many possible causes, including poor sleep, stress, an unbalanced diet, anaemia, thyroid problems, low mood, infections, sleep apnoea and some medicines.\nImproving sleep, activity and diet can help, but tiredness that lasts more than about 2 weeks or comes with weight loss, fever or breathlessness should be checked by a doctor.",
+      "source": "NHS – Health A to Z",
+      "sourceUrl": "https://www.nhs.uk/conditions/",
+      "urgency": "see-doctor",
+      "lastReviewed": null,
+      "reviewStatus": "sample-unreviewed"
+    },
+    {
+      "id": "mb-011",
+      "question": "What causes nausea and vomiting?",
+      "symptoms": [
+        "nausea",
+        "vomiting",
+        "feeling sick"
+      ],
+      "keywords": [
+        "nausea",
+        "vomiting",
+        "throwing up",
+        "food poisoning",
+        "motion sickness"
+      ],
+      "category": "Common symptoms",
+      "answer": "Common causes include stomach infections, food poisoning, motion sickness, migraine, pregnancy and some medicines. Take small, frequent sips of fluid and rest.\nSeek medical care if you cannot keep fluids down for a day, have signs of dehydration, vomit blood, have severe pain, or if the person affected is a baby, young child or older adult.",
+      "source": "NHS – Diarrhoea and vomiting",
+      "sourceUrl": "https://www.nhs.uk/conditions/diarrhoea-and-vomiting/",
+      "urgency": "see-doctor",
+      "lastReviewed": null,
+      "reviewStatus": "sample-unreviewed"
+    },
+    {
+      "id": "mb-012",
+      "question": "What should I do about diarrhoea?",
+      "symptoms": [
+        "diarrhoea",
+        "loose stools",
+        "watery stools"
+      ],
+      "keywords": [
+        "diarrhea",
+        "diarrhoea",
+        "loose motions",
+        "ORS",
+        "oral rehydration"
+      ],
+      "category": "Common symptoms",
+      "answer": "The main goal is to replace lost fluids. Oral rehydration solution (ORS), water and other fluids help, and eating small light meals as you feel able is fine.\nSee a doctor if there is blood in the stool, a high fever, severe pain, signs of dehydration, symptoms lasting more than a few days, or if the person is a baby, young child or older adult.",
+      "source": "NHS – Diarrhoea and vomiting; NHS – Dehydration",
+      "sourceUrl": "https://www.nhs.uk/conditions/diarrhoea-and-vomiting/",
+      "urgency": "see-doctor",
+      "lastReviewed": null,
+      "reviewStatus": "sample-unreviewed"
+    },
+    {
+      "id": "mb-013",
+      "question": "How can I maintain healthy hydration?",
+      "symptoms": [
+        "thirst",
+        "dark urine",
+        "dry mouth"
+      ],
+      "keywords": [
+        "hydration",
+        "hydrated",
+        "water intake",
+        "drink water",
+        "fluids"
+      ],
+      "category": "Nutrition and hydration",
+      "answer": "Drink fluids regularly through the day rather than waiting until you are very thirsty. Pale-yellow urine is a simple guide that you are drinking enough. You need more in hot weather, during exercise or when ill. Water-rich foods such as fruit and vegetables also help.\nIf you have kidney or heart conditions, ask your doctor how much fluid is right for you.",
+      "source": "NHS – Dehydration",
+      "sourceUrl": "https://www.nhs.uk/conditions/dehydration/",
+      "urgency": "routine",
+      "lastReviewed": null,
+      "reviewStatus": "sample-unreviewed"
+    },
+    {
+      "id": "mb-014",
+      "question": "How can I prevent dehydration?",
+      "symptoms": [
+        "dry mouth",
+        "dark urine",
+        "dizziness",
+        "fatigue"
+      ],
+      "keywords": [
+        "dehydration",
+        "prevent dehydration",
+        "heat",
+        "sweating",
+        "ORS"
+      ],
+      "category": "Nutrition and hydration",
+      "answer": "Drink regularly, drink extra in hot weather or when exercising, use oral rehydration solution (ORS) during diarrhoea or vomiting, and limit alcohol. Early signs are thirst, dark urine, dry mouth, tiredness and dizziness.\nGet medical help for confusion, a fast heartbeat, very little or no urine, or if a baby, child or older adult is affected.",
+      "source": "NHS – Dehydration",
+      "sourceUrl": "https://www.nhs.uk/conditions/dehydration/",
+      "urgency": "monitor",
+      "lastReviewed": null,
+      "reviewStatus": "sample-unreviewed"
+    },
+    {
+      "id": "mb-015",
+      "question": "What is a balanced diet?",
+      "symptoms": [
+        "healthy eating"
+      ],
+      "keywords": [
+        "balanced diet",
+        "healthy diet",
+        "nutrition",
+        "vegetables",
+        "fruit",
+        "whole grains",
+        "pulses"
+      ],
+      "category": "Nutrition and hydration",
+      "answer": "A balanced diet includes plenty of vegetables and fruit, whole grains, pulses and legumes, nuts, and moderate amounts of lean protein, with unsaturated fats preferred over saturated fats. Limit salt, added sugar and highly processed foods.\nA dietitian can tailor advice to your health conditions and culture.",
+      "source": "WHO – Healthy diet fact sheet",
+      "sourceUrl": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+      "urgency": "routine",
+      "lastReviewed": null,
+      "reviewStatus": "sample-unreviewed"
+    },
+    {
+      "id": "mb-016",
+      "question": "How much salt and sugar is healthy?",
+      "symptoms": [
+        "high blood pressure risk"
+      ],
+      "keywords": [
+        "salt",
+        "sugar",
+        "sodium",
+        "free sugars",
+        "limit"
+      ],
+      "category": "Nutrition and hydration",
+      "answer": "The WHO suggests adults consume less than 5 g of salt a day (about one teaspoon) and keep free sugars below 10% of total energy intake, with further benefit below 5%. Packaged and processed foods are a major hidden source, so check labels.",
+      "source": "WHO – Healthy diet fact sheet",
+      "sourceUrl": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+      "urgency": "routine",
+      "lastReviewed": null,
+      "reviewStatus": "sample-unreviewed"
+    },
+    {
+      "id": "mb-017",
+      "question": "What foods are good sources of iron?",
+      "symptoms": [
+        "tiredness",
+        "pale skin"
+      ],
+      "keywords": [
+        "iron",
+        "iron-rich foods",
+        "anaemia",
+        "anemia",
+        "haemoglobin",
+        "lentils",
+        "spinach"
+      ],
+      "category": "Nutrition and hydration",
+      "answer": "Iron is found in pulses and lentils, leafy greens, nuts and seeds, fortified cereals, eggs and meat. Vitamin C-rich foods help absorption, while tea and coffee with meals can reduce it.\nDo not start iron supplements without advice, because too much iron can be harmful and tiredness has many causes.",
+      "source": "NHS – Iron deficiency anaemia",
+      "sourceUrl": "https://www.nhs.uk/conditions/iron-deficiency-anaemia/",
+      "urgency": "routine",
+      "lastReviewed": null,
+      "reviewStatus": "sample-unreviewed"
+    },
+    {
+      "id": "mb-018",
+      "question": "How can I prevent common infections?",
+      "symptoms": [
+        "cough",
+        "fever",
+        "diarrhoea"
+      ],
+      "keywords": [
+        "prevent infection",
+        "hand washing",
+        "hygiene",
+        "vaccination",
+        "safe water",
+        "germs"
+      ],
+      "category": "Preventive healthcare",
+      "answer": "Wash hands with soap and water regularly, especially before eating and after using the toilet, keep up to date with recommended vaccines, drink safe water, handle food hygienically, cover coughs and sneezes, and stay home when you are unwell.",
+      "source": "CDC – Clean Hands",
+      "sourceUrl": "https://www.cdc.gov/clean-hands/",
+      "urgency": "routine",
+      "lastReviewed": null,
+      "reviewStatus": "sample-unreviewed"
+    },
+    {
+      "id": "mb-019",
+      "question": "Which vaccinations are important for adults?",
+      "symptoms": [],
+      "keywords": [
+        "vaccine",
+        "vaccination",
+        "immunisation",
+        "immunization",
+        "booster",
+        "adult vaccines",
+        "tetanus"
+      ],
+      "category": "Preventive healthcare",
+      "answer": "Recommendations vary by country, age, health conditions, pregnancy and travel plans. Adults commonly discuss tetanus boosters, seasonal flu, hepatitis B and, for older adults or those at higher risk, pneumococcal and other vaccines. Ask your doctor or check your national immunisation guidance for what applies to you.",
+      "source": "WHO – Vaccines and immunization",
+      "sourceUrl": "https://www.who.int/health-topics/vaccines-and-immunization",
+      "urgency": "routine",
+      "lastReviewed": null,
+      "reviewStatus": "sample-unreviewed"
+    },
+    {
+      "id": "mb-020",
+      "question": "How can I reduce my risk of heart disease?",
+      "symptoms": [],
+      "keywords": [
+        "heart disease",
+        "heart health",
+        "cholesterol",
+        "blood pressure",
+        "smoking",
+        "cardiovascular"
+      ],
+      "category": "Preventive healthcare",
+      "answer": "Avoid tobacco, be physically active, eat a diet rich in vegetables, fruit and whole grains, limit salt, added sugar and alcohol, maintain a healthy weight, sleep well, and have blood pressure, cholesterol and blood sugar checked regularly. Treating high blood pressure and diabetes is especially important.",
+      "source": "WHO – Cardiovascular diseases fact sheet",
+      "sourceUrl": "https://www.who.int/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds)",
+      "urgency": "routine",
+      "lastReviewed": null,
+      "reviewStatus": "sample-unreviewed"
+    },
+    {
+      "id": "mb-021",
+      "question": "How can I protect my skin from the sun?",
+      "symptoms": [
+        "sunburn"
+      ],
+      "keywords": [
+        "sun protection",
+        "sunscreen",
+        "UV",
+        "sunburn",
+        "skin cancer"
+      ],
+      "category": "Preventive healthcare",
+      "answer": "Seek shade around midday, wear protective clothing, a hat and sunglasses, and use broad-spectrum sunscreen of SPF 30 or higher on exposed skin, reapplying as directed. See a doctor about moles that change in size, shape or colour, or sores that do not heal.",
+      "source": "WHO – Ultraviolet radiation fact sheet",
+      "sourceUrl": "https://www.who.int/news-room/fact-sheets/detail/ultraviolet-radiation",
+      "urgency": "routine",
+      "lastReviewed": null,
+      "reviewStatus": "sample-unreviewed"
+    },
+    {
+      "id": "mb-022",
+      "question": "How can I manage stress?",
+      "symptoms": [
+        "stress",
+        "feeling overwhelmed",
+        "tension"
+      ],
+      "keywords": [
+        "stress",
+        "manage stress",
+        "relax",
+        "overwhelmed",
+        "burnout"
+      ],
+      "category": "Mental wellness information",
+      "answer": "Regular physical activity, enough sleep, time with people you trust, breaks from work, slow breathing and limiting alcohol and caffeine can all help. Breaking problems into small steps often makes them feel more manageable.\nIf stress is constant or affects your sleep, work or relationships, talking with a mental health professional can help.",
+      "source": "MedlinePlus – Stress",
+      "sourceUrl": "https://medlineplus.gov/stress.html",
+      "urgency": "routine",
+      "lastReviewed": null,
+      "reviewStatus": "sample-unreviewed"
+    },
+    {
+      "id": "mb-023",
+      "question": "What are signs I should talk to a mental health professional?",
+      "symptoms": [
+        "persistent sadness",
+        "loss of interest",
+        "panic",
+        "sleep changes"
+      ],
+      "keywords": [
+        "mental health",
+        "counsellor",
+        "therapist",
+        "depression",
+        "anxiety",
+        "professional help"
+      ],
+      "category": "Mental wellness information",
+      "answer": "Consider seeking help if low mood, worry or panic last more than a couple of weeks, you lose interest in things you used to enjoy, your sleep or appetite change a lot, you find it hard to cope with daily life, or you rely on alcohol or drugs to cope.\nIf you are thinking about harming yourself, contact emergency services on 112 or a crisis line such as Tele-MANAS (14416) in India straight away.",
+      "source": "WHO – Mental health fact sheet",
+      "sourceUrl": "https://www.who.int/news-room/fact-sheets/detail/mental-health-strengthening-our-response",
+      "urgency": "see-doctor",
+      "lastReviewed": null,
+      "reviewStatus": "sample-unreviewed"
+    },
+    {
+      "id": "mb-024",
+      "question": "How can I cope with anxiety?",
+      "symptoms": [
+        "anxiety",
+        "worry",
+        "racing thoughts",
+        "panic"
+      ],
+      "keywords": [
+        "anxiety",
+        "anxious",
+        "panic",
+        "worry",
+        "calm down",
+        "breathing exercise"
+      ],
+      "category": "Mental wellness information",
+      "answer": "Slow breathing, grounding exercises (noticing things you can see, hear and feel), regular exercise, steady sleep and less caffeine can ease symptoms. Talking to someone you trust helps.\nSee a professional if anxiety is frequent, severe, causes panic attacks or limits your daily life, since effective treatments exist.",
+      "source": "MedlinePlus – Anxiety",
+      "sourceUrl": "https://medlineplus.gov/anxiety.html",
+      "urgency": "routine",
+      "lastReviewed": null,
+      "reviewStatus": "sample-unreviewed"
+    },
+    {
+      "id": "mb-025",
+      "question": "How do I treat a minor burn?",
+      "symptoms": [
+        "burn",
+        "scald",
+        "blister"
+      ],
+      "keywords": [
+        "burn",
+        "scald",
+        "minor burn",
+        "cool water",
+        "blister"
+      ],
+      "category": "First aid",
+      "answer": "Cool the burn under cool or lukewarm running water for about 20 minutes. Remove rings or tight items near the area before swelling starts, then cover loosely with a clean non-fluffy dressing or cling film. Do not use ice, butter, toothpaste or burst blisters.\nGet medical help for large or deep burns, burns on the face, hands, feet or genitals, chemical or electrical burns, and any burn in a baby or young child.",
+      "source": "NHS – Burns and scalds",
+      "sourceUrl": "https://www.nhs.uk/conditions/burns-and-scalds/",
+      "urgency": "see-doctor",
+      "lastReviewed": null,
+      "reviewStatus": "sample-unreviewed"
+    },
+    {
+      "id": "mb-026",
+      "question": "How do I stop a minor cut from bleeding?",
+      "symptoms": [
+        "bleeding",
+        "cut",
+        "graze"
+      ],
+      "keywords": [
+        "cut",
+        "wound",
+        "minor bleeding",
+        "pressure",
+        "dressing"
+      ],
+      "category": "First aid",
+      "answer": "Wash your hands, then press firmly on the cut with a clean cloth for about 10 minutes. Raise the area if you can. Rinse the wound with clean running water and cover with a clean dressing.\nSeek medical care if bleeding does not stop, the cut is deep, dirty or caused by an animal bite, or you are unsure your tetanus protection is up to date.",
+      "source": "NHS – First aid",
+      "sourceUrl": "https://www.nhs.uk/conditions/first-aid/",
+      "urgency": "monitor",
+      "lastReviewed": null,
+      "reviewStatus": "sample-unreviewed"
+    },
+    {
+      "id": "mb-027",
+      "question": "What should I do for a nosebleed?",
+      "symptoms": [
+        "nosebleed",
+        "bleeding from nose"
+      ],
+      "keywords": [
+        "nosebleed",
+        "nose bleeding",
+        "epistaxis"
+      ],
+      "category": "First aid",
+      "answer": "Sit upright and lean forward, and pinch the soft part of your nose for 10–15 minutes while breathing through your mouth. Do not tilt your head back.\nGet medical help if bleeding lasts more than about 20 minutes, follows a head injury, or you feel faint or are taking blood-thinning medicines.",
+      "source": "NHS – Nosebleed",
+      "sourceUrl": "https://www.nhs.uk/conditions/nosebleed/",
+      "urgency": "monitor",
+      "lastReviewed": null,
+      "reviewStatus": "sample-unreviewed"
+    },
+    {
+      "id": "mb-028",
+      "question": "What should I do if someone is choking?",
+      "symptoms": [
+        "choking",
+        "cannot speak",
+        "cannot breathe"
+      ],
+      "keywords": [
+        "choking",
+        "blocked airway",
+        "back blows",
+        "abdominal thrusts"
+      ],
+      "category": "First aid",
+      "answer": "If the person cannot cough, speak or breathe, call 112 or ask someone else to. For an adult, give up to 5 firm back blows between the shoulder blades, then up to 5 abdominal thrusts, repeating if needed. Babies and young children need a different technique.\nA certified first-aid course is the best way to learn this properly.",
+      "source": "NHS – First aid",
+      "sourceUrl": "https://www.nhs.uk/conditions/first-aid/",
+      "urgency": "emergency",
+      "lastReviewed": null,
+      "reviewStatus": "sample-unreviewed"
+    },
+    {
+      "id": "mb-029",
+      "question": "What should I do if someone faints?",
+      "symptoms": [
+        "fainting",
+        "passed out",
+        "collapse"
+      ],
+      "keywords": [
+        "faint",
+        "fainting",
+        "passed out",
+        "unconscious"
+      ],
+      "category": "First aid",
+      "answer": "Lay the person flat and raise their legs if possible, loosen tight clothing and make sure they are breathing. Do not give food or drink until fully alert.\nCall 112 if they do not wake within about a minute, are not breathing normally, are injured, or have chest pain.",
+      "source": "NHS – Fainting",
+      "sourceUrl": "https://www.nhs.uk/conditions/fainting/",
+      "urgency": "see-doctor",
+      "lastReviewed": null,
+      "reviewStatus": "sample-unreviewed"
+    },
+    {
+      "id": "mb-030",
+      "question": "What are some healthy sleep habits?",
+      "symptoms": [
+        "trouble sleeping",
+        "insomnia",
+        "poor sleep"
+      ],
+      "keywords": [
+        "sleep",
+        "sleep habits",
+        "sleep hygiene",
+        "insomnia",
+        "bedtime",
+        "screen time"
+      ],
+      "category": "Sleep and fitness",
+      "answer": "Keep regular sleep and wake times, make the bedroom dark, quiet and cool, avoid screens, caffeine, heavy meals and alcohol close to bedtime, and get daylight and exercise during the day. Most adults need 7 or more hours of sleep.\nSee a doctor if poor sleep lasts weeks, you snore loudly with pauses in breathing, or tiredness affects daily life.",
+      "source": "MedlinePlus – Healthy sleep; NHS – Insomnia",
+      "sourceUrl": "https://medlineplus.gov/healthysleep.html",
+      "urgency": "routine",
+      "lastReviewed": null,
+      "reviewStatus": "sample-unreviewed"
+    },
+    {
+      "id": "mb-031",
+      "question": "How much physical activity do adults need?",
+      "symptoms": [],
+      "keywords": [
+        "exercise",
+        "physical activity",
+        "workout",
+        "aerobic",
+        "strength training",
+        "fitness"
+      ],
+      "category": "Sleep and fitness",
+      "answer": "The WHO recommends adults do at least 150–300 minutes of moderate-intensity aerobic activity per week (or 75–150 minutes of vigorous activity), plus muscle-strengthening activities on 2 or more days. Any movement is better than none, so start gradually. If you have a medical condition or have been inactive, check with your doctor first.",
+      "source": "WHO – Physical activity fact sheet",
+      "sourceUrl": "https://www.who.int/news-room/fact-sheets/detail/physical-activity",
+      "urgency": "routine",
+      "lastReviewed": null,
+      "reviewStatus": "sample-unreviewed"
+    },
+    {
+      "id": "mb-032",
+      "question": "Can I take over-the-counter painkillers regularly?",
+      "symptoms": [
+        "pain",
+        "headache",
+        "body ache"
+      ],
+      "keywords": [
+        "painkiller",
+        "pain relief",
+        "over the counter",
+        "OTC",
+        "medicine",
+        "analgesic"
+      ],
+      "category": "Medication information and precautions",
+      "answer": "MediBot cannot recommend specific medicines or doses. In general: read the label, never exceed the stated amount, avoid combining products that share the same active ingredient, and tell a pharmacist about your other medicines, health conditions or pregnancy.\nNeeding painkillers often or for more than a few days is a reason to talk to a doctor.",
+      "source": "MedlinePlus – Medicines",
+      "sourceUrl": "https://medlineplus.gov/",
+      "urgency": "see-doctor",
+      "lastReviewed": null,
+      "reviewStatus": "sample-unreviewed"
+    },
+    {
+      "id": "mb-033",
+      "question": "Should I stop taking antibiotics when I feel better?",
+      "symptoms": [],
+      "keywords": [
+        "antibiotics",
+        "finish course",
+        "antibiotic resistance",
+        "stop antibiotics"
+      ],
+      "category": "Medication information and precautions",
+      "answer": "Follow the instructions of the doctor who prescribed them, and ask them before stopping early or saving leftovers. Never share antibiotics. They do not work against viruses such as colds and flu, and misuse contributes to antimicrobial resistance.",
+      "source": "WHO – Antimicrobial resistance fact sheet",
+      "sourceUrl": "https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance",
+      "urgency": "see-doctor",
+      "lastReviewed": null,
+      "reviewStatus": "sample-unreviewed"
+    },
+    {
+      "id": "mb-034",
+      "question": "What precautions should I take with medicines?",
+      "symptoms": [
+        "rash",
+        "swelling after medicine"
+      ],
+      "keywords": [
+        "medication safety",
+        "drug interaction",
+        "side effects",
+        "expiry",
+        "storage",
+        "allergy"
+      ],
+      "category": "Medication information and precautions",
+      "answer": "Take medicines only as directed, check expiry dates, store them as instructed and out of children's reach, and keep an up-to-date list of everything you use, including supplements and herbal products. Ask a pharmacist about interactions and alcohol.\nReport side effects to your doctor. Signs of a severe allergic reaction, such as swelling of the face or throat or trouble breathing, need emergency help.",
+      "source": "MedlinePlus – Medicines",
+      "sourceUrl": "https://medlineplus.gov/",
+      "urgency": "see-doctor",
+      "lastReviewed": null,
+      "reviewStatus": "sample-unreviewed"
+    },
+    {
+      "id": "mb-035",
+      "question": "What are the symptoms of diabetes?",
+      "symptoms": [
+        "increased thirst",
+        "frequent urination",
+        "blurred vision",
+        "slow healing wounds",
+        "weight loss"
+      ],
+      "keywords": [
+        "diabetes",
+        "blood sugar",
+        "type 2 diabetes",
+        "thirst",
+        "urination"
+      ],
+      "category": "Chronic-condition education",
+      "answer": "Common symptoms include increased thirst, passing urine often, tiredness, blurred vision, slow-healing wounds and unexplained weight loss. Many people with type 2 diabetes have no early symptoms, so a blood test is the only way to know.\nSee a doctor if you have these symptoms or risk factors such as family history or overweight.",
+      "source": "WHO – Diabetes fact sheet",
+      "sourceUrl": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+      "urgency": "see-doctor",
+      "lastReviewed": null,
+      "reviewStatus": "sample-unreviewed"
+    },
+    {
+      "id": "mb-036",
+      "question": "What is high blood pressure and why does it matter?",
+      "symptoms": [
+        "headache",
+        "often no symptoms"
+      ],
+      "keywords": [
+        "high blood pressure",
+        "hypertension",
+        "BP",
+        "blood pressure"
+      ],
+      "category": "Chronic-condition education",
+      "answer": "High blood pressure usually causes no symptoms but raises the risk of heart disease, stroke and kidney damage. Diagnosis requires repeated measurements; clinic readings of 140/90 mmHg or higher are commonly used as a threshold.\nReducing salt, staying active, avoiding tobacco, limiting alcohol and keeping a healthy weight help, and some people also need medicine. Very high readings with chest pain, severe headache or breathlessness need emergency care.",
+      "source": "WHO – Hypertension fact sheet",
+      "sourceUrl": "https://www.who.int/news-room/fact-sheets/detail/hypertension",
+      "urgency": "see-doctor",
+      "lastReviewed": null,
+      "reviewStatus": "sample-unreviewed"
+    },
+    {
+      "id": "mb-037",
+      "question": "What are the common symptoms of asthma?",
+      "symptoms": [
+        "wheezing",
+        "cough",
+        "chest tightness",
+        "shortness of breath"
+      ],
+      "keywords": [
+        "asthma",
+        "wheeze",
+        "inhaler",
+        "breathlessness",
+        "trigger"
+      ],
+      "category": "Chronic-condition education",
+      "answer": "Typical symptoms are wheezing, coughing (often at night or with exercise), chest tightness and breathlessness. Triggers include dust, pollen, smoke, cold air and infections.\nDoctors can diagnose asthma and give an action plan. If someone is struggling to breathe or cannot speak in full sentences, call 112 immediately.",
+      "source": "WHO – Asthma fact sheet",
+      "sourceUrl": "https://www.who.int/news-room/fact-sheets/detail/asthma",
+      "urgency": "see-doctor",
+      "lastReviewed": null,
+      "reviewStatus": "sample-unreviewed"
+    },
+    {
+      "id": "mb-038",
+      "question": "What are the warning signs of a heart attack?",
+      "symptoms": [
+        "chest pain",
+        "chest pressure",
+        "shortness of breath",
+        "sweating",
+        "pain in arm or jaw"
+      ],
+      "keywords": [
+        "heart attack",
+        "chest pain",
+        "myocardial infarction",
+        "emergency"
+      ],
+      "category": "Emergency guidance",
+      "answer": "Warning signs include chest pain, pressure or tightness, pain spreading to the arm, jaw, neck or back, shortness of breath, sweating, nausea and light-headedness. Symptoms can be less typical in women, older adults and people with diabetes.\nCall 112 immediately. Do not drive yourself to hospital.",
+      "source": "NHS – Heart attack",
+      "sourceUrl": "https://www.nhs.uk/conditions/heart-attack/",
+      "urgency": "emergency",
+      "lastReviewed": null,
+      "reviewStatus": "sample-unreviewed"
+    },
+    {
+      "id": "mb-039",
+      "question": "What are the signs of a stroke?",
+      "symptoms": [
+        "face drooping",
+        "arm weakness",
+        "slurred speech",
+        "sudden confusion",
+        "vision loss"
+      ],
+      "keywords": [
+        "stroke",
+        "FAST",
+        "face drooping",
+        "speech difficulty",
+        "emergency"
+      ],
+      "category": "Emergency guidance",
+      "answer": "Use FAST: Face drooping, Arm or leg weakness, Speech difficulty, Time to call 112. Other signs include sudden confusion, loss of vision, loss of balance and a sudden severe headache.\nStroke is a medical emergency and every minute matters.",
+      "source": "NHS – Stroke",
+      "sourceUrl": "https://www.nhs.uk/conditions/stroke/",
+      "urgency": "emergency",
+      "lastReviewed": null,
+      "reviewStatus": "sample-unreviewed"
+    },
+    {
+      "id": "mb-040",
+      "question": "What should I do for severe bleeding?",
+      "symptoms": [
+        "heavy bleeding",
+        "blood loss"
+      ],
+      "keywords": [
+        "severe bleeding",
+        "heavy bleeding",
+        "haemorrhage",
+        "pressure",
+        "emergency"
+      ],
+      "category": "Emergency guidance",
+      "answer": "Call 112. Press firmly on the wound with a clean cloth or clothing and keep pressing. If blood soaks through, add more material on top rather than removing it. Lay the person down and raise the injured limb if possible.",
+      "source": "NHS – First aid",
+      "sourceUrl": "https://www.nhs.uk/conditions/first-aid/",
+      "urgency": "emergency",
+      "lastReviewed": null,
+      "reviewStatus": "sample-unreviewed"
+    }
+  ]
+}
